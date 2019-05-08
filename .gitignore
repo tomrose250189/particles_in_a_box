@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/particles_in_a_box/v15
+/executables/x64/Debug
+/intermediates/x64/Debug
