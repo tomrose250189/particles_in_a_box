@@ -45,4 +45,11 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\cpp_libraries\SDL2-2.0.9\binaries\x64\Release\SDL2.lib" />
+    <Library Include="..\..\..\..\cpp_libraries\SDL2-2.0.9\binaries\x64\Release\SDL2main.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+  </ItemGroup>
 </Project>

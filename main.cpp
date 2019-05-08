@@ -6,10 +6,13 @@
 
 #include "update.h"
 
-#define MAX_MASS 0.001
-#define MAX_SIZE 0.001
-#define MAX_SPEED 1.0
+constexpr auto MAX_MASS = 0.001;
+constexpr auto MAX_SIZE = 0.001;
+constexpr auto MAX_SPEED = 1.0;
 
+#ifdef __cplusplus
+extern "C"
+#endif
 int main() {
    //Specify box and total number of particles
    vec3 box_size;
@@ -82,6 +85,9 @@ int main() {
       wall_collisions.store(0);
 //      std::cin.get();
    }
+
+   SDL_Init(0);
+
    while(true){}
    return 0;
 }

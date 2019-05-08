@@ -2,6 +2,9 @@
 #define PARTICLE_H
 #include "vec3.h"
 
+#define SDL_MAIN_HANDLED
+#include <SDL.h>
+
 class particle
 {
    public:
